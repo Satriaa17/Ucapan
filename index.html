@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Selamat Ulang Tahun!</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <audio id="birthdayMusic" src="YTTA.mp3" autoplay loop></audio>
+    <div class="container">
+        <!-- Slide 1 -->
+        <div class="slide-card active" id="slide1">
+            <div class="slide-title">Selamat Ulang Tahun, Grisella! 🎂</div>
+            <div class="photos-row">
+                <img src="SEL1.jpg" alt="Teman 1" class="photo">
+                <img src="SEL2.jpg" alt="Teman 2" class="photo">
+            </div>
+            <div class="slide-text">
+                Semoga di hari spesial ini, setiap langkahmu selalu dipenuhi kebahagiaan, cinta, dan tawa.<br>
+                Teruslah bersinar dan menjadi inspirasi bagi banyak orang.<br>
+                <span class="from">— Satriaa 💖</span>
+            </div>
+            <button class="next-btn" onclick="nextSlide(2)">Next</button>
+        </div>
+        <!-- Slide 2 -->
+        <div class="slide-card" id="slide2">
+            <div class="slide-title">Ucapan Spesial Lagi!</div>
+            <img src="SEL4.jpg" alt="Teman 3" class="photo-single">
+            <div class="slide-text">
+                Semoga setiap harimu dikelilingi orang-orang yang tulus dan selalu mendukungmu.<br>
+                Jangan pernah ragu untuk bermimpi besar, karena kamu pantas mendapatkannya!<br>
+                <span class="from">Selamat ulang tahun, Grisella! 🎈</span>
+            </div>
+            <div class="balloon-container">
+                <span class="balloon" style="animation-delay: 0s;">🎈</span>
+                <span class="balloon" style="left:40%; animation-delay: 1.2s;">🎈</span>
+                <span class="balloon" style="left:60%; animation-delay: 2s;">🎈</span>
+            </div>
+            <button class="next-btn" onclick="nextSlide(3)">Next</button>
+        </div>
+        <!-- Slide 3 -->
+        <div class="slide-card" id="slide3">
+            <div class="slide-title">Penutup 🎉</div>
+            <img src="SEL3.jpg" alt="Teman 4" class="photo-single">
+            <div class="slide-text">
+                Terima kasih sudah menjadi teman yang luar biasa.<br>
+                Semoga semua impian dan harapanmu segera terwujud.<br>
+                Tetap jadi Grisella yang ceria, kuat, dan penuh semangat!Biar Bisa sama Nabil<br><br>
+                <b>Happy Birthday, Grisella! 💕✨</b>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
